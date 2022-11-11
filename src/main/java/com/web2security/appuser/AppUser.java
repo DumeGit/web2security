@@ -3,6 +3,7 @@ package com.web2security.appuser;
 import com.web2security.book.Book;
 import com.web2security.security.AppRole;
 import lombok.*;
+import org.springframework.data.relational.core.sql.In;
 
 import javax.persistence.*;
 import java.util.List;
@@ -36,6 +37,13 @@ public class AppUser {
         this.password = password;
         this.email = email;
         this.role = role;
+    }
+
+    public AppUser (String email, String password, AppRole role, Integer money){
+        this.password = password;
+        this.email = email;
+        this.role = role;
+        this.money = money;
     }
 
 

@@ -1,8 +1,6 @@
 
 D
 frontend/src/App.css,8/a/8a75d7beb1451b6fe9282486fbd897a9a8156b7f
-c
-3src/main/java/com/web2security/appuser/AppUser.java,9/9/99cd82219008dff353ef43db34d1576b9aa1b5b8
 m
 =src/main/java/com/web2security/appuser/AppUserRepository.java,6/f/6f15272930fb99a34b8d9cd9c4f05b5bb6d9cefc
 r
@@ -19,8 +17,6 @@ p
 gradlew.bat,2/a/2a45a911a8f1836b0b6c5b758962572012d8f8c3
 X
 (gradle/wrapper/gradle-wrapper.properties,f/b/fbe448ebfc3eb2d4e308f6b8b043666f5b57235e
-]
--src/main/java/com/web2security/book/Book.java,4/1/41130fbf17321d5db027e3609d1e24b642f92c4a
 d
 4src/main/java/com/web2security/book/BookService.java,a/6/a6b345502e1b444582db6d71a187062a86beba4d
 g
@@ -47,5 +43,3 @@ F
 frontend/src/index.css,9/1/91e522be11677dbeaea3b85493b4868d2728cb6c
 F
 frontend/src/index.tsx,d/9/d910832662c636742fd4ec7481640b032fa4a2d4
-d
-4src/main/java/com/web2security/DataSourceConfig.java,6/4/64d49d33e6f9b48bcc1950a05d030ba503da0ec0

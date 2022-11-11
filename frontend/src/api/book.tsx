@@ -3,7 +3,7 @@ import {BookSearchModel} from "../page/HomePage";
 const csrfToken = localStorage.getItem("csrfToken")
 
 export async function search(data:BookSearchModel) {
-    const response = await fetch("https://salty-savannah-57820.herokuapp.com/book/search", { body: JSON.stringify(data), credentials: "include", method: "POST", headers: {
+    const response = await fetch("http://localhost:8080/book/search", { body: JSON.stringify(data), credentials: "include", method: "POST", headers: {
             "Content-Type": "application/json",
             'X-XSRF-TOKEN': csrfToken!
         }})
@@ -16,7 +16,7 @@ export async function search(data:BookSearchModel) {
 }
 
 export async function buy(id:number) {
-    const response = await fetch(`https://salty-savannah-57820.herokuapp.com/book/buy?bookId=${id}`, { method: "GET" , credentials: "include", headers: {
+    const response = await fetch(`http://localhost:8080/book/buy?bookId=${id}`, { method: "GET" , credentials: "include", headers: {
             'X-XSRF-TOKEN': csrfToken!
         }})
 

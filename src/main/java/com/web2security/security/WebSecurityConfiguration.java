@@ -49,7 +49,7 @@ public class WebSecurityConfiguration extends WebSecurityConfigurerAdapter {
         http.cors()
                 .and()
                 .authorizeRequests()
-                .antMatchers("/user/create", "/auth/login", "/auth/logout", "/auth/user", "/csrf", "/logout")
+                .antMatchers("/user/create", "/auth/login", "/auth/logout", "/auth/user", "/csrf", "/logout", "/h2/**")
                 .permitAll()
 
                 .anyRequest()
@@ -58,7 +58,7 @@ public class WebSecurityConfiguration extends WebSecurityConfigurerAdapter {
                 .and()
                 .logout()
                 .logoutSuccessHandler((request, response, authentication) -> response.setStatus(HttpServletResponse.SC_OK))
-                .and().csrf().ignoringAntMatchers("/user/sendUnsecured")
+                .and().csrf().ignoringAntMatchers("/user/sendUnsecured", "/h2/**")
                 .csrfTokenRepository(CookieCsrfTokenRepository.withHttpOnlyFalse());
 
 

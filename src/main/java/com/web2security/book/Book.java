@@ -27,4 +27,11 @@ public class Book {
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name="appuser_id", nullable=false)
     private AppUser user;
+
+    public Book(String name, String genre, Integer price, AppUser user) {
+        this.name = name;
+        this.genre = genre;
+        this.price = price;
+        this.user = user;
+    }
 }
