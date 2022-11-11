@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d47071f1-3c2a-4b92-9c1b-d6981a0c2bda" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/7/37083060967a471c011a16651e22bdc2ade41759" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="d47071f1-3c2a-4b92-9c1b-d6981a0c2bda" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -111,7 +107,7 @@
       <workItem from="1667661888935" duration="11032000" />
       <workItem from="1667725340669" duration="15806000" />
       <workItem from="1668014956801" duration="12229000" />
-      <workItem from="1668157738722" duration="14984000" />
+      <workItem from="1668157738722" duration="15345000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1668077086116</created>
