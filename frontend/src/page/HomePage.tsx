@@ -49,13 +49,12 @@ export default function HomePage({user}: any) {
             >
                 <Navbar.Brand
                     className="me-auto"
-                    href="/"
                 >
                     <Badge className="mx-3">
                         {user.email}
                     </Badge>
                     <Badge>
-                        {user.money + "$"}
+                        {"Money: " + user.money + "$"}
                     </Badge>
                 </Navbar.Brand>
                 <Navbar.Text>
@@ -99,7 +98,7 @@ export default function HomePage({user}: any) {
                             </Formik>
                         </div>
                         <div>
-                            <a href="http://localhost:4000">
+                            <a href="http://somedomain.com:4000/">
                                 <button
                                     className=" w-5 group relative flex justify-center py-2 px-10 border border-transparent text-sm font-medium rounded-md text-white bg-red-600 hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500"
                                 >
