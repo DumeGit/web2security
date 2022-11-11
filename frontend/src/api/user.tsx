@@ -1,7 +1,7 @@
 const csrfToken = localStorage.getItem("csrfToken")
 
 export async function getAll() {
-    const response = await fetch("http://localhost:8080/user/getAll", {
+    const response = await fetch("https://salty-savannah-57820.herokuapp.com/user/getAll", {
         credentials: "include", method: "GET", headers: {
             'X-XSRF-TOKEN': csrfToken!
         }
@@ -15,7 +15,7 @@ export async function getAll() {
 }
 
 export async function sendMoney(data:any) {
-    const response = await fetch(`http://localhost:8080/user/send?email=${data.email}&money=${data.money}`, { method: "GET" , credentials: "include", })
+    const response = await fetch(`https://salty-savannah-57820.herokuapp.com/user/send?email=${data.email}&money=${data.money}`, { method: "GET" , credentials: "include", })
 
     if(response.status !== 200) {
         throw new Error("Not logged in");

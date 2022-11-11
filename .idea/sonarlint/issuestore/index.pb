@@ -11,8 +11,6 @@ k
 ;src/main/java/com/web2security/security/AppUserDetails.java,3/5/359106fbd1310f87427b4982519daad92e91ff1c
 d
 4src/main/java/com/web2security/security/AppRole.java,b/7/b7710f6a9ea75c84f10724a1a4a9e3d8d5d6d8b3
-7
-gradlew,5/b/5bbfa66edb4db3c7c33c5181f43510990d3307f9
 p
 @src/test/java/com/web2security/Web2securityApplicationTests.java,1/3/130510f89e534c668ad922e1606442424bd61bf0
 ?
@@ -31,10 +29,6 @@ K
 frontend/tailwind.config.js,e/f/ef5a90fd36dd52866b87125460df93ff827f7beb
 `
 0src/main/java/com/web2security/book/BookDto.java,e/2/e2a62bc054330ee1d738d9a4f459d38cdf7e7c64
-k
-;src/main/java/com/web2security/Web2securityApplication.java,6/c/6c3f54c3d5fab642182a59015aae9d4c45481a24
-I
-frontend/src/api/book.tsx,6/d/6d335a7c8864e8dd1e4bead354682dfcf9d7c27f
 g
 7src/main/java/com/web2security/book/BookBuyCommand.java,1/4/14d0936d4dee641f03f8b13455a9acc884d73b54
 l
